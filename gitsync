@@ -4,12 +4,12 @@ DIR=.
 cd $DIR
 echo -e "\n$>>> $DIR\n"
 git fetch origin master
-OUTPUT=$(git diff origin/master)
+#OUTPUT=$(git diff origin/master)
 
-if [[ -z $OUTPUT ]]; then
-    echo "Local state matches origin/master"
-    exit
-fi
+#if [[ -z $OUTPUT ]]; then
+#    echo "Local state matches origin/master"
+#    exit
+#fi
 
 # reaches here only when any new content is present
 
