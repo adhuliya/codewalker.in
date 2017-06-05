@@ -25,7 +25,7 @@ SECRET_KEY = '=!qx2--$@u_2%8%e%(&z3f-&@t@hv7l8og)kxt43b2^pw9@4xn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'www.codewalker.in']
+ALLOWED_HOSTS = [u'www.codewalker.in', u"localhost"]
 
 
 # Application definition
@@ -55,7 +55,9 @@ ROOT_URLCONF = 'codewalker.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, "codewalker/templates"),
+            ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -117,6 +119,10 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
+
+STATICFILES_DIRS = [
+        os.path.join(BASE_DIR, "static"),
+        ]
 
 STATIC_URL = '/static/'
 
