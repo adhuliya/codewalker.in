@@ -17,6 +17,7 @@
         <link rel="shortcut icon" type="image/png" href="{% static "images/logo/logo-transparent-48.png" %}"/>
 	</head>
 	<body class="homepage">
+        <a name="top"></a>
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -26,32 +27,40 @@
 						<!-- Logo -->
                         <img src="{% static "images/logo/logo-transparent-256.png"%}"/>
                         <!--<h1 id="logo"><a href="index.html">Strongly Typed</a></h1>-->
-							<p>Unleash the Python onto this world.</p>
+							<p>Unleashing Python onto this world.</p>
 
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li><a class="icon fa-home" href="index.html"><span>Introduction</span></a></li>
+									<li><a class="icon fa-home" href="#codewalkerbits"><span>CodeWalker Bits</span></a></li>
+									<li>
+										<a href="#ourcourses" class="icon fa-bar-chart-o"><span>Our Courses</span></a>
+										<ul>
+											<li><a href="#py101" title="Intro to Python">PY101 : Learn Python</a></li>
+											<li><a href="#py102" title="Certification on basic Python">PY102 : Get Certified</a></li>
+											<li><a href="#py501" title="Python with Django">PY501 : Python and Web</a></li>
+											<li><a href="#py701" title="Advanced Python">PY701 : Advanced Python</a></li>
+											<li><a href="#py801" title="Advanced Python">PY801 : Write a Compiler in Python</a></li>
+											<li><a href="#py802" title="Advanced Python">PY802 : Linux Scripting in Python</a></li>
+										</ul>
+									</li>
+									<li><a class="icon fa-cog" href="#whypython"><span>Why Python?</span></a></li>
 									<li>
 										<a href="#" class="icon fa-bar-chart-o"><span>Python Resources</span></a>
 										<ul>
-											<li><a href="#">python.org</a></li>
-											<li><a href="#">docs.python.org/3/</a></li>
-											<li><a href="#">pythonanywhere.com</a></li>
 											<li>
-												<a href="#">Phasellus consequat</a>
+												<a href="https://www.python.org" target="_blank">python.org</a>
 												<ul>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
+													<li><a href="https://docs.python.org/" target="_blank">docs.python.org</a></li>
+													<li><a href="https://docs.python.org/3/tutorial/" target="_blank">Python 3 Tutorial</a></li>
+													<li><a href="https://www.python.org/downloads/" target="_blank">Downloads</a></li>
 												</ul>
 											</li>
-											<li><a href="#">Veroeros feugiat</a></li>
+											<li><a href="https://www.pythonanywhere.com" target="_blank" title="Pythonize the Web">Python Anywhere</a></li>
+											<li><a href="https://learnpythonthehardway.org/" target="_blank" title="An interesting hard way">Learn Python the Hard Way</a></li>
 										</ul>
 									</li>
-									<li><a class="icon fa-cog" href="left-sidebar.html"><span>Left Sidebar</span></a></li>
-									<li><a class="icon fa-retweet" href="right-sidebar.html"><span>Right Sidebar</span></a></li>
-									<li><a class="icon fa-sitemap" href="no-sidebar.html"><span>No Sidebar</span></a></li>
+									<li><a class="icon fa-sitemap" href="#contactus">Contact Us?<span></span></a></li>
 								</ul>
 							</nav>
 
@@ -60,22 +69,23 @@
 
 			<!-- Features -->
 				<div id="features-wrapper">
+                    <a name="ourcourses"></a>
 					<section id="features" class="container">
 						<header>
-							<h2>Gentlemen, behold! This is <strong>Strongly Typed</strong>!</h2>
+                            <h2>Our <strong>Python Courses!</strong></h2>
 						</header>
 						<div class="row">
 							<div class="4u 12u(mobile)">
 
 								<!-- Feature -->
 									<section>
-                                        <a href="#" class="image featured"><img src="{% static "images/pic01.jpg" %}" alt="" /></a>
+                                        <a name="py101"></a>
+                                        <a href="#py101course" class="image featured"><img src="{% static "images/pic01.jpg" %}" alt="" /></a>
 										<header>
-											<h3>Okay, so what is this?</h3>
+											<h3>PY101 : Learn Python!</h3>
 										</header>
-										<p>This is <strong>Strongly Typed</strong>, a free, fully responsive site template
-										by <a href="http://html5up.net">HTML5 UP</a>. Free for personal and commercial use under the
-										<a href="http://html5up.net/license">CCA 3.0 license</a>.</p>
+										<p>Learn to program in Python 3. We teach everything that you need to take yourself to the next level. We teach you using online tools that are sure to become your all time favourites to keep learning Python even after the course is done. Don't they say be a student always...</p>
+                                        <p><a href="#py101course">Course Structure</a></p>
 									</section>
 
 							</div>
@@ -83,13 +93,13 @@
 
 								<!-- Feature -->
 									<section>
-                                        <a href="#" class="image featured"><img src="{% static "images/pic02.jpg" %}" alt="" /></a>
+                                        <a name="py102"></a>
+                                        <a href="#py102course" class="image featured"><img src="{% static "images/pic02.jpg" %}" alt="" /></a>
 										<header>
-											<h3>Nice! What is HTML5 UP?</h3>
+											<h3>PY102 : Python Developer Certification</h3>
 										</header>
-										<p><a href="http://html5up.net">HTML5 UP</a> is a side project of <a href="http://twitter.com/ajlkn">AJ’s</a> (= me).
-										I started it as a way to both test my <strong>skel</strong> framework and sharpen up my coding
-										and design skills a bit.</p>
+                                        <p>It has all the things that the PY101 course has. It prepares you to become <a href="https://www.vskills.in/certification/web-development/certified-python-developer" target="_blank" title="A Govt. of India & Govt. of NCT Delhi and JC Co. Initiative">Vskills Certified Python Developer</a>. Since the certification is only available for Python 2, we will primarily learn Python 2 and, as a bonus, learn the differences between Python 2 and Python 3. You have to be ready for the future.</p>
+                                        <p><a href="#py102course">Course Structure</a></p>
 									</section>
 
 							</div>
@@ -97,19 +107,60 @@
 
 								<!-- Feature -->
 									<section>
+                                        <a name="py501"></a>
                                         <a href="#" class="image featured"><img src="{% static "images/pic03.jpg" %}" alt="" /></a>
 										<header>
-											<h3>Skel? What's that?</h3>
+											<h3>PY501 : Python Web Programming</h3>
 										</header>
-										<p><strong>Skel</strong> is a lightweight framework for building responsive
-										sites and apps. All of my stuff at <a href="http://html5up.net">HTML5 UP</a> (including this
-										one) are built on this framework.</p>
+                                        <p>Learn Python 3 with <a href="https://www.djangoproject.com/" target="_blank" title="Django Web Framework">Django</a>, <a href="https://www.mysql.com" target="_blank" title="Oracle MySql Database">MySql</a>, <a href="https://www.sqlite.org/" target="_blank" title="Sqlite3, a lightweight popular database">Sqlite3</a> to build responsive <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank" title="HTML5 Intro w3schools.com">HTML5</a>/<a href="https://www.w3schools.com/css/default.asp" target="_blank" title="CSS3 Intro w3schools.com">CSS3</a>/<a href="https://www.w3schools.com/js/default.asp" target="_blank" title="Javascript Intro w3schools.com">Javascript </a><strong>full featured websites</strong>. Including the training on deploying and maintaining the website on live servers! We teach you <a href="https://www.w3schools.com/sql/default.asp" target="_blank" title="SQL Intro w3schools.com">SQL</a> as a bonus!</p>
+                                        <p><a href="https://youtube.com/" target="_blank" title="A video streaming site">YouTube</a> uses Python.</p>
+									</section>
+
+							</div>
+                        </div>
+						<div class="row">
+							<div class="4u 12u(mobile)">
+
+								<!-- Feature -->
+									<section>
+                                        <a name="py701"></a>
+                                        <a href="#" class="image featured"><img src="{% static "images/pic03.jpg" %}" alt="" /></a>
+										<header>
+											<h3>PY701 : Advanced Python</h3>
+										</header>
+                                        <p>Learn advanced features of Python. The course PY101/PY102 (any one), and PY501 are a prerequisite for this course. You will unlock the awesome new features of Python 3 and learn how Python fits into the real world with application based study of most of these hidden tricks in Python. After this course you will be able to juice out most out of Python anywhere you go.</p>
+									</section>
+
+							</div>
+							<div class="4u 12u(mobile)">
+
+								<!-- Feature -->
+									<section>
+                                        <a name="py801"></a>
+                                        <a href="#" class="image featured"><img src="{% static "images/pic03.jpg" %}" alt="" /></a>
+										<header>
+											<h3>PY801 : Write a Compiler in Python</h3>
+										</header>
+                                        <p>Yes you can write Compilers in Python. Now create your own compiled or interpreted language using Python and impress others. It is easy!</p>
+									</section>
+
+							</div>
+							<div class="4u 12u(mobile)">
+
+								<!-- Feature -->
+									<section>
+                                        <a name="py802"></a>
+                                        <a href="#" class="image featured"><img src="{% static "images/pic03.jpg" %}" alt="" /></a>
+										<header>
+											<h3>PY802 : Linux Scripting in Python</h3>
+										</header>
+                                        <p>Write Bash scripts in Python and manage your Linux machine. Learn about Linux/Ubuntu along the way. This course will empower you to become better programmer. If you like automating everything, here is the perfect start.</p>
 									</section>
 
 							</div>
 						</div>
 						<ul class="actions">
-							<li><a href="#" class="button icon fa-file">Tell Me More</a></li>
+							<li><a href="#" class="button icon fa-file">Interested? Fill this form and we will assist you.</a></li>
 						</ul>
 					</section>
 				</div>
@@ -118,8 +169,9 @@
 				<div id="banner-wrapper">
 					<div class="inner">
 						<section id="banner" class="container">
-							<p>Use this space for <strong>profound thoughts</strong>.<br />
-							Or an enormous ad. Whatever.</p>
+                            <p>Programming was tiring<br />
+                            then came <strong>Python</strong><br />
+							now its fun!</p>
 						</section>
 					</div>
 				</div>
@@ -134,57 +186,93 @@
 
 									<!-- Post -->
 										<article class="box post">
+                                            <a name="codewalkerbits"></a>
 											<header>
-												<h2><a href="#">I don’t want to say <strong>it’s the aliens</strong> ...<br />
-												but it’s the aliens.</a></h2>
+												<h2>Walk like a CodeWalker</h2>
 											</header>
-                                            <a href="#" class="image featured"><img src="{% static "images/pic04.jpg" %}" alt="" /></a>
+                                            <a href="#codewalkerbits" class="image featured"><img src="{% static "images/pic04.jpg" %}" alt="" /></a>
 											<h3>I mean isn't it possible?</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
-											mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique.
-											Curabitur leo nibh, rutrum eu malesuada in, tristique at erat.</p>
+											<p>We at CodeWaker are fans of Python. We use it everywhere, to write a compiler, to design a website, to run Machine Learning algorithms, to write scripts, you name it... With the evolution of Python to its latest avatar Python 3, it has since become so much fun to program in this language that it is tempting to do almost everything with it. </p>
+                                            <p>Free and open source learning is the way we have brought ourselves up to this stage and we want it to remain that way. That is why we don't shy away from pointing the interested reader to various resources available on Python around the web which you can use to learn and brag around with the label "Self-Taught". In that case do <a href="mailto:contact@codewalker.in">let us know</a>, how we helped you, and what we can improve upon.</p>
+                                            <p>That said, it is always better to kick start your learning from personal help of the experts. This way you learn quickly and you have a solid directed knowledge to do useful things with Python. And whenever you feel you know enough, start your own journey into the vastness of Python. Keep in mind, Python has only just begun with its uses in numerous places. Read its <a href="https://www.python.org/about/success/" target="_blank" title="Python Success Stories">success stories</a>. Its on a booming path to excellence. Come join us and spread the word.</p>
 											<ul class="actions">
-												<li><a href="#" class="button icon fa-file">Continue Reading</a></li>
+												<li><a href="#top" class="button icon fa-file">Back to Top</a></li>
 											</ul>
 										</article>
 
 									<!-- Post -->
 										<article class="box post">
+                                            <a name="whypython"></a>
 											<header>
-												<h2><a href="#">By the way, many thanks to <strong>regularjane</strong>
-												for these awesome demo photos</a></h2>
+                                                <br /><br /><br />
+												<h2><a href="#">By the way, its awesome?</a></h2>
 											</header>
-                                            <a href="#" class="image featured"><img src="{% static "images/pic05.jpg" %}" alt="" /></a>
-											<h3>You should probably check out her work</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
-											mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique.
-											Curabitur leo nibh, rutrum eu malesuada in, tristique at erat.</p>
-											<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat
-											Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula
-											vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet
-											magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada in,
-											tristique at erat. Curabitur leo nibh, rutrum eu malesuada  in, tristique
-											at erat lorem ipsum dolor sit amet lorem ipsum sed consequat magna
-											tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros consequat
-											magna tempus</p>
+                                            <a href="#whypython" class="image featured"><img src="{% static "images/pic05.jpg" %}" alt="" /></a>
+											<h3>You find Python everywhere and anywhere.</h3>
+											<p>Python is everywhere. This world will stop if all the Python programs stop running. This was the language we all long waited for. A language that can do almost everything and is so easy and pleasing to learn. Its like English!</p>
+
+                                            <p>Python is a serious language with hidden powers to complete the most daunting tasks. It allows you to write usable programs in matter of days. And the programs are so readable, you wished why aren't all languages built this way. Then you see it being used everywhere, and anywhere. Even our favourite website YouTube uses Python. Python also helped <a href="http://home.cern/" target="_blank" title="The European Organization for Nuclear Research">CERN</a> to detect the <a href="https://en.wikipedia.org/wiki/Higgs_boson" target="_blank" title="An elementary particle in the Standard Model of particle physics.">Higgs boson</a>. What a language indeed.</p>
 											<ul class="actions">
-												<li><a href="#" class="button icon fa-file">Continue Reading</a></li>
+												<li><a href="#top" class="button icon fa-file">Back To Top</a></li>
 											</ul>
 										</article>
+
+										<article class="box post">
+                                            <a name="py101course"></a>
+											<header>
+                                                <br /><br /><br />
+												<h2><a href="#py101course">PY101 : Learn Python 3</a></h2>
+											</header>
+                                            <a href="#py101course" class="image featured"><img src="{% static "images/pic05.jpg" %}" alt="" /></a>
+											<h3>The best way to begin Python 3.</h3>
+											<p>Want to learn Python 3? This is the best place to start.</p>
+
+                                            <p>Learn the basics of Python language with good coverage of its features. This course will help you write your own projects in Python and help you understand code written by others. You will learn the correct way of writing Pythonic code. And all of this online, using the <a href="https://www.pythonanywhere.com/" target="_blank" title="Host, run, and code Python in the cloud!">PythonAnyWhere</a> platform. With tips on how to host your own Python website in minutes!</p>
+
+                                            <p>The course is of 20 hour duration. This course is derived from the online <a href="https://docs.python.org/3/tutorial/" target="_blank" title="The Python Tutorial -- Python 3.6.1 Documentation">official python.org tutorial</a>. Visit the <a href="https://www.pythonanywhere.com/" target="_blank" title="The Python Tutorial -- Python 3.6.1 Documentation">tutorial page</a> for the complete syllabus information.</p>
+
+                                            <p>The more close you are to the <a href="https://docs.python.org/3/tutorial/" target="_blank" title="The Python Tutorial -- Python 3.6.1 Documentation">official python.org tutorial</a>, more complete and accurate will be your basics in the latest and greatest version of Python. These tutorials are even referred to at a place like <a href="http://web.mit.edu/" target="_blank" title="Massachusetts Institute of Technology, USA">MIT</a>. Then why not us?</p>
+
+                                            <p>The requirements for this course are minimal.</p>
+                                            <ul>
+                                                <li>- Motivation to learn!</li>
+                                                <li>- 20+ Hours of spare time</li>
+                                                <li>- Access to a browser and a good speed internet. You can even take this course over a mobile phone; a keyboard would be a great companion to your mobile, in that case.</li>
+                                                <li>- <a href="https://www.teamviewer.com/en/" target="_blank" title="TeamViewer – Remote Support, Remote Access, Service Desk, Online Collaboration and Meetings">TeamViewer</a>. (We will guide you in any setup. Learn the online way and make your life easy.)</li>
+                                            </ul>
+
+
+											<ul class="actions">
+												<li><a href="#top" class="button icon fa-file">Back To Top</a></li>
+											</ul>
+										</article>
+
+										<article class="box post">
+                                            <a name="py102course"></a>
+											<header>
+                                                <br /><br /><br />
+												<h2><a href="#py102course">PY102 : Vskill Certified Python Developer</a></h2>
+											</header>
+                                            <a href="#py102course" class="image featured"><img src="{% static "images/pic05.jpg" %}" alt="" /></a>
+											<h3>Get certified and increase your chances to get hired.</h3>
+											<p>In this course we will prepare you for Vskill Certified Python Developer. It is a certification program by Vskills, which is a Govt. of India & Govt. of NCT Delhi and JC Co. Initiative. This is the only certification available from a known authority, all others are fake or non-existent or of no value. There is no official Python certification program as well. Official certifications are the most difficult and have the best value in the market. We are waiting for the python.org foundation to launch a certification soon.</p>
+
+                                            <p>Here we will strictly follow the certification syllabus available <a href="https://www.vskills.in/certification/certified-python-developer-table-of-contents" target="_blank" title="The web framework for perfectionists with deadlines.">from Vskills</a>.</p>
+
+                                            <p>The requirements for this course are minimal.</p>
+                                            <ul>
+                                                <li>- Motivation to learn!</li>
+                                                <li>- 20+ Hours of spare time</li>
+                                                <li>- Access to a browser and a good speed internet. You can even take this course over a mobile phone; a keyboard would be a great companion to your mobile, in that case.</li>
+                                                <li>- <a href="https://www.teamviewer.com/en/" target="_blank" title="TeamViewer – Remote Support, Remote Access, Service Desk, Online Collaboration and Meetings">TeamViewer</a>. (We will guide you in any setup. Learn the online way and make your life easy.)</li>
+                                            </ul>
+
+
+											<ul class="actions">
+												<li><a href="#top" class="button icon fa-file">Back To Top</a></li>
+											</ul>
+										</article>
+
 
 								</div>
 
@@ -199,11 +287,10 @@
 													<!-- Excerpt -->
 														<article class="box excerpt">
 															<header>
-																<span class="date">July 30</span>
-																<h3><a href="#">Just another post</a></h3>
+																<span class="date">June 6, 2017</span>
+																<h3><a href="#">Codewalker.in</a></h3>
 															</header>
-															<p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
-															suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
+                                                            <p>This website is built using the Python 3.5 and <a href="https://www.djangoproject.com/" target="_blank" title="The web framework for perfectionists with deadlines.">Django Web Framework</a>. It is hosted on <a href="https://www.pythonanywhere.com/" target="_blank" title="Host, run, and code Python in the cloud!">PythonAnyWhere</a>. It is THE place for Python enthusiasts.</p>
 														</article>
 
 												</li>
@@ -212,11 +299,10 @@
 													<!-- Excerpt -->
 														<article class="box excerpt">
 															<header>
-																<span class="date">July 28</span>
-																<h3><a href="#">And another post</a></h3>
+																<span class="date">June 5, 2017</span>
+																<h3><a href="#">The Online Courses</a></h3>
 															</header>
-															<p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
-															suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
+															<p>Since most Python Developers use it for the web, we decided to conduct our courses completely online. Learning Python online makes you ready to use it online. We do one thing, but with perfection so good, no one can copy. We teach Python.</p>
 														</article>
 
 												</li>
@@ -225,11 +311,11 @@
 													<!-- Excerpt -->
 														<article class="box excerpt">
 															<header>
-																<span class="date">July 24</span>
-																<h3><a href="#">One more post</a></h3>
+																<span class="date">May 27, 2017</span>
+																<h3><a href="#">Let the world know</a></h3>
 															</header>
-															<p>Lorem ipsum dolor odio facilisis convallis. Etiam non nunc vel est
-															suscipit convallis non id orci lorem ipsum sed magna consequat feugiat lorem dolore.</p>
+                                                            <a href="#" class="image left"><img src="{% static "images/logo/logo-transparent-160.png" %}" alt="" /></a>
+															<p>We decide to teach Python to the uninitiated. Spread the word. Pythonists are coming.</p>
 														</article>
 
 												</li>
@@ -244,16 +330,13 @@
 													<!-- Highlight -->
 														<article class="box highlight">
 															<header>
-																<h3><a href="#">Something of note</a></h3>
+																<h3><a href="#">YouTube uses Python</a></h3>
 															</header>
-                                                            <a href="#" class="image left"><img src="{% static "images/pic06.jpg" %}" alt="" /></a>
-															<p>Phasellus  sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
-															viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
-															convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
-															facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.</p>
-															<ul class="actions">
+                                                            <a href="https://www.youtube.com/" title="YouTube" class="image left"><img src="{% static "images/youtube-logo-160.jpg" %}" alt="" /></a>
+															<p>The main portions of the Youtube website are witten in Python. Why not all?... Most large websites are written with a major use of one language and many minor uses for other languages. This has many reasons and one of them is simply put... a good complete language, though it can do everything, is not best for everything.</p>
+                                                            <!--<ul class="actions">
 																<li><a href="#" class="button icon fa-file">Learn More</a></li>
-															</ul>
+                                                            </ul>-->
 														</article>
 
 												</li>
@@ -262,16 +345,13 @@
 													<!-- Highlight -->
 														<article class="box highlight">
 															<header>
-																<h3><a href="#">Something of less note</a></h3>
+																<h3><a href="#">Python at Nuclear Facility</a></h3>
 															</header>
-                                                            <a href="#" class="image left"><img src="{% static "images/pic07.jpg" %}" alt="" /></a>
-															<p>Phasellus  sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
-															viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
-															convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
-															facilisis convallis. Etiam non nunc vel est suscipit convallis non id orci.</p>
-															<ul class="actions">
+                                                            <a href="http://home.cern/" target="_blank" title="The European Organization for Nuclear Research" class="image left"><img src="{% static "images/cern-logo-160.jpg" %}" alt="" /></a>
+                                                            <p>Guido van Rossum the father of Python <a href="https://twitter.com/gvanrossum/status/387677265850413056?lang=en" target="_blank" title="Guido van Rossum on CERN">posted on Twitter</a> the success of Python on makeing its way into the CERN laboratories. Which also happens to be the birth place of the <a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank" title="The World Wide Web">World Wide Web</a>.</p>
+															<!--<ul class="actions">
 																<li><a href="#" class="button icon fa-file">Learn More</a></li>
-															</ul>
+                                                            </ul>-->
 														</article>
 
 												</li>
@@ -285,6 +365,7 @@
 				</div>
 
 			<!-- Footer -->
+                <a name="contactus"></a>
 				<div id="footer-wrapper">
 					<div id="footer" class="container">
 						<header>
@@ -292,63 +373,40 @@
 						</header>
 						<div class="row">
 							<div class="6u 12u(mobile)">
-								<section>
-									<form method="post" action="#">
-										<div class="row 50%">
-											<div class="6u 12u(mobile)">
-												<input name="name" placeholder="Name" type="text" />
-											</div>
-											<div class="6u 12u(mobile)">
-												<input name="email" placeholder="Email" type="text" />
-											</div>
-										</div>
-										<div class="row 50%">
-											<div class="12u">
-												<textarea name="message" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<div class="row 50%">
-											<div class="12u">
-												<a href="#" class="form-button-submit button icon fa-envelope">Send Message</a>
-											</div>
-										</div>
-									</form>
-								</section>
+                                <br/><br/>
+                                <img src="{% static "images/logo/logo-transparent-256.png" %}" alt="CodeWalker Logo" title="CodeWalker Logo"/>
 							</div>
 							<div class="6u 12u(mobile)">
 								<section>
-									<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet
-									mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur
-									leo nibh, rutrum eu malesuada.</p>
+									<p>Write to us about anything. Query us, suggest us, "Want guidance?", "Confused about Python?". We will listen to you. </p>
 									<div class="row">
 										<div class="6u 12u(mobile)">
 											<ul class="icons">
 												<li class="icon fa-home">
-													1234 Somewhere Road<br />
-													Nashville, TN 00000<br />
-													USA
+                                                    We are based in Mumbai, India.<br/>
+                                                    Our presence is strictly online.<br/>
 												</li>
 												<li class="icon fa-phone">
-													(000) 000-0000
+													Email Us.
 												</li>
 												<li class="icon fa-envelope">
-													<a href="#">info@untitled.tld</a>
+													<a href="mailto:contact@codewalker.in">contact@codewalker.in</a>
 												</li>
 											</ul>
 										</div>
 										<div class="6u 12u(mobile)">
 											<ul class="icons">
 												<li class="icon fa-twitter">
-													<a href="#">@untitled-tld</a>
+													<a href="#contactus">Coming Soon</a>
 												</li>
 												<li class="icon fa-instagram">
-													<a href="#">instagram.com/untitled-tld</a>
+													<a href="#contactus">Coming Soon</a>
 												</li>
 												<li class="icon fa-dribbble">
-													<a href="#">dribbble.com/untitled-tld</a>
+													<a href="#contactus">Coming Soon</a>
 												</li>
 												<li class="icon fa-facebook">
-													<a href="#">facebook.com/untitled-tld</a>
+													<a href="#contactus">Coming Soon</a>
 												</li>
 											</ul>
 										</div>
@@ -359,7 +417,7 @@
 					</div>
 					<div id="copyright" class="container">
 						<ul class="links">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; CodeWalker. All rights reserved.</li><li>Design: <a href="#">CodeWalker Team and html5up.net</a></li>
 						</ul>
 					</div>
 				</div>
@@ -377,3 +435,5 @@
 
 	</body>
 </html>
+
+

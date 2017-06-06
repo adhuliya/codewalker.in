@@ -1072,7 +1072,7 @@
 		background: #f0f0f0;
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
-		color: #777;
+		color: #444;
 	}
 
 		body.is-loading * {
@@ -1089,7 +1089,7 @@
 	input, textarea, select {
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
-		color: #777;
+		color: #444;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1568,7 +1568,7 @@
 	}
 
 		#banner-wrapper .inner {
-			background: url("../../images/banner.jpg");
+			background: url("/static/images/banner.jpg");
 			background-size: cover;
 		}
 

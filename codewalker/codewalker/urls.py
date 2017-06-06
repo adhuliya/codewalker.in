@@ -19,9 +19,11 @@ from django.contrib import admin
 from . import views
 
 urlpatterns = [
-    url(r"^$", views.index, name="homepage"),
-    url(r"^(?P<pagename>.*\.html)", views.htmlpage, name="htmlpage"),
-    url(r'^admin/', admin.site.urls),
+    url(r"^$", views.index, name="homePage"),
+    #url(r"^(?P<pageName>.*\.html)$", views.htmlPage, name="htmlPage"),
+    url(r"^(?P<pageName>index\.html)$", views.htmlPage, name="htmlPage"),
+    #url(r'^admin/', admin.site.urls),
+    url(r"^(?P<pageName>.*)$", views.doesNotExist, name="doesNotExist"),
 ]
 
 
