@@ -2,9 +2,15 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
 
 /*
-	Strongly Typed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+ *  Color shades:
+    OrangeShade: #E44424
+    SkyBlue: #67BCDB
+    GreenShade: #A2AB58
+    White: #FFFFFF
+
+    RED   : 8F0404
+    BLUE  : 013b76
+    GREEN : 056F0C
 */
 
 /* Reset */
@@ -1072,7 +1078,7 @@
 		background: #f0f0f0;
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
-		color: #111;
+		color: #333;
 	}
 
 		body.is-loading * {
@@ -1088,7 +1094,7 @@
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro';
-		font-weight: 300;
+		font-weight: 400;
 		color: #111;
 	}
 
@@ -1109,7 +1115,9 @@
 		-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-		color: #444;
+		/*color: #444;*/
+		color: #013b76;
+        font-weight: bold;
 		text-decoration: none;
 		border-bottom: solid 1px #ddd;
 	}
@@ -1122,17 +1130,20 @@
 		}
 
 		a:hover {
-			color: #ed786a;
+			/*color: #ed786a;*/
+			color: #056F0C;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
 			a:hover strong {
-				color: #ed786a;
+				/*color: #ed786a;*/
+			    color: #056F0C;
 			}
 
 	strong, b {
-		font-weight: 600;
-		color: #111;
+		font-weight: 700;
+		/*color: #111;*/
+		color: #8F0404;
 	}
 
 	em, i {
@@ -1645,8 +1656,8 @@
 
 		#header p {
 			text-transform: uppercase;
-			font-weight: 400;
-			color: #888;
+			font-weight: 450;
+			color: #333;
 		}
 
 /* Nav */
@@ -1660,14 +1671,15 @@
 			text-decoration: none;
 			text-transform: uppercase;
 			font-weight: 400;
-			color: #777;
+			/*color: #777;*/
+			color: #8F0404;
 			outline: 0;
 		}
 
 			#nav > ul > li > a:before {
 				display: inline-block;
 				background: #878787;
-				color: #e4e4e4;
+				color: #e9e9e9;
 				width: 1.65em;
 				height: 1.65em;
 				border-radius: 1.65em;
@@ -1696,7 +1708,8 @@
 		}
 
 		#nav > ul > li.active > a > span, #nav > ul > li:hover > a > span {
-			color: #ED786A;
+			/*color: #ED786A;*/
+            color: #04509F;
 		}
 
 /* Features */
@@ -1759,7 +1772,8 @@
 
 			body, input, textarea, select {
 				line-height: 1.65em;
-				font-size: 13pt;
+				font-size: 1.20em;
+                font-weight: 400;
 			}
 
 			h2 {
@@ -1949,7 +1963,9 @@
 					-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 					-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 					transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-					color: #ed786a;
+					/*color: #ed786a;*/
+                    color: #056F0C;
+                    font-weight:bold;
 				}
 
 		/* Banner */
