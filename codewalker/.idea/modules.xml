@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/codewalker.iml" filepath="$PROJECT_DIR$/.idea/codewalker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../demo-webapp-flask-py-git/.idea/demo-webapp-flask-py-git.iml" filepath="$PROJECT_DIR$/../../demo-webapp-flask-py-git/.idea/demo-webapp-flask-py-git.iml" />
+    </modules>
+  </component>
+</project>
